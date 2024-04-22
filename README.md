@@ -19,7 +19,7 @@ Install all dependencies using pip:
 
 ```bash
 pip install pandas numpy matplotlib seaborn simplejson pyarrow openpyxl mysql-connector-python psycopg2-binary cx-Oracle snowflake-connector-python boto3 azure-storage-blob google-cloud-storage sqlalchemy
-
+```
 
 ## Functions
 
