@@ -40,7 +40,7 @@ from your_library import dataframe_info
 
 info = dataframe_info('path_to_dataframe.csv')
 print(info)
-
+```
 
 
 ### 2. `dataframe_imputation`
@@ -65,7 +65,7 @@ df_processed, imputed_cols, dropped_cols = dataframe_imputation(df, threshold=0.
 print("Processed DataFrame:", df_processed)
 print("Imputed Columns:", imputed_cols)
 print("Dropped Columns:", dropped_cols)
-
+```
 
 
 ### 3. `dataframe_standardization`
@@ -87,7 +87,7 @@ from your_library import dataframe_standardization
 
 df_standardized = dataframe_standardization(df, standardization_type='z-score')
 print("Standardized DataFrame:", df_standardized)
-
+```
 
 
 ### 4. `dataframe_visualization`
@@ -107,7 +107,7 @@ Generates various data visualizations (histograms, pair plots, box plots, bar ch
 from your_library import dataframe_visualization
 
 dataframe_visualization(df)
-
+```
 
 
 
@@ -132,7 +132,7 @@ from your_library import dataframe_import
 
 df = dataframe_import('csv', 'path_to_file.csv')
 print(df.head())
-
+```
 
 
 ### 6. `dataframe_export`
@@ -155,7 +155,7 @@ from your_library import dataframe_export
 
 success = dataframe_export(df, 'csv', file_path='exported_data.csv')
 print("Export successful:", success)
-
+```
 
 
 
